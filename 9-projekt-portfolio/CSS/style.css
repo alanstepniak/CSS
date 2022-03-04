@@ -226,7 +226,7 @@ span {
     }
 }
 
-@media (max-width:1199px) {
+@media (max-width:1200px) {
     .container {
         max-width: 992px;
     }
@@ -236,7 +236,7 @@ span {
     }
 }
 
-@media (max-width:991px) {
+@media (max-width:992px) {
     .container {
         max-width: 768px;
     }
@@ -246,7 +246,7 @@ span {
     }
 }
 
-@media (max-width:767px) {
+@media (max-width:768px) {
     .container {
         max-width: 95%;
     }
@@ -259,14 +259,15 @@ span {
         .mainHeaderContent h1 {
             font-size: 3em;
         }
-
-        .aboutIMG {
-            max-height: 200px;
-            max-width: 200px;
-        }
-
-        .contact input[type="text"],
-        .contact input[type="email"] {
-            flex-basis: 100%;
-        }
     }
+
+    .aboutIMG {
+        max-height: 200px;
+        max-width: 200px;
+    }
+
+    .contact input[type="text"],
+    .contact input[type="email"] {
+        flex-basis: 100%;
+    }
+}
